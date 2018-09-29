@@ -14,6 +14,12 @@
   body {
       position: relative;
   }
+  .jumbotron {
+      background-image: url("img/elizabeth-lies-190771-unsplash.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
 
   </style>
   <body>
@@ -27,13 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Download The App</a>
+                  <a class="nav-link" href="#download">Download The App</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -44,6 +50,27 @@
             </div>
           </nav>
       </header>
+      <section id="banner">
+            <div class="jumbotron text-center">
+                    <h1 class="display-4">My Awesome App!</h1>
+                    <p class="lead">This is why YOU should download this fantastic app!</p>
+                    <hr class="my-4">
+					<p>Want to know more? Join our mailing list!</p>
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-4"></div>
+							<div class="input-group input-group-lg mb-3 col-4">
+								<div class="input-group-prepend">
+									<div class="input-group-text">@</div>
+								</div>
+								<input type="email" class="form-control form-control-lg mr-sm-2" id="inlineFormInputGroup" placeholder="Your email">
+								<button type="submit" class="btn btn-primary my-2 my-sm-0 btn-lg">Sign up</button>
+							</div>
+							<div class="col-4"></div>
+						</div>
+					</div>
+            </div>
+      </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
