@@ -15,11 +15,18 @@
   body {
       position: relative;
   }
-  .jumbotron {
+  #headerBannner {
       background-image: url("img/elizabeth-lies-190771-unsplash.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+  }
+  .download-banner {
+	  background-color: aqua;
+	  padding: 10rem 5rem;
+  }
+  #downloadImg {
+	  width: 25%;
   }
 
   </style>
@@ -52,7 +59,7 @@
           </nav>
       </header>
       <section id="banner">
-            <div class="jumbotron text-center">
+            <div id="headerBannner" class="jumbotron text-center">
                     <h1 class="display-4">My Awesome App!</h1>
                     <p class="lead">This is why YOU should download this fantastic app!</p>
                     <hr class="my-4">
@@ -113,6 +120,13 @@
 				  </div>
 			  </div>
 		  </div>
+	  </section>
+	  <section id="download">
+			<div class="jumbotron download-banner text-center m-0">
+				<h1 class="display-4">Download the app!</h1>
+				<p class="lead">Really, why should I download this app??</p>
+				<img id="downloadImg" src="img/Available-on-app-store-button-graphic.png" alt="button of the Apple Download store">		
+			</div>
 	  </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
